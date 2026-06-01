@@ -1,0 +1,18 @@
+# Go build artifacts
+*.exe
+*.test
+*.out
+vendor/
+
+# Local binary
+curl-imposter
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local mock data (stored in ~/.curl-imposter, not here)
